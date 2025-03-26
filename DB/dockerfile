@@ -4,4 +4,4 @@ COPY init.sql /docker-entrypoint-initdb.d/
 
 ENV POSTGRES_DB=Escola
 
-EXPOSE 8501
+EXPOSE 5432
